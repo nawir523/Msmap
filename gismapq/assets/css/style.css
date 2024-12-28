@@ -1,0 +1,85 @@
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#map {
+    border-radius: 5px;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.popup-content {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.popup-content h6 {
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+.popup-content p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 8px;
+}
+.desa-label div {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #000;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.leaflet-control-layers {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.desa-marker {
+    background: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.desa-marker:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+}
+
+.desa-marker i {
+    color: #FF4444;
+}
+
+.desa-marker span {
+    font-weight: bold;
+    color: #333;
+}
+
+.selected-marker {
+    transition: all 0.3s ease;
+}
+
+.selected-marker:hover {
+    transform: scale(1.1);
+}
